@@ -1,0 +1,62 @@
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div id="body">
+        <div id="scroll">
+            <div id="title">
+                <h2> 50th Birthday Form</h2><br>
+                <em>Thank you for sharing this memory</em>
+            </div>
+            <div id="mainPanel" class="br-5">
+
+                <div id="form">
+                    <form action="#" name="userInfo">
+                        <p>Name: </p>
+                        <p> <input type="text" required name="Name" placeholder="Enter your name here." class="opt1 " />
+                        </p>
+
+
+                        <p class="Shrink">James is your : </p>
+                        <select class="opt1 " name="Relation">
+                            <option value="Sibling">Brother</option>
+                            <option value="Child">Dad</option>
+                            <option value="Uncle">Uncle</option>
+                            <option value="Briggs">In-Law</option>
+                            <option value="Friend">Friend</option>
+                            <option value="Cousin">Cousin</option>
+                            <option value="other">Other</option>
+                        </select>
+
+
+                        <p class="Shrink">What year did this happen (Roughly) </p>
+                        <input type="number" min="1900" max="2099" step="1" value="2016" />
+                        </p>
+
+                        <p class="Shrink">Title/Head of your message</p>
+                        <input type="text" required name="persEmail" placeholder="Eg. Happy Birthday James"
+                            class="opt1 br-5" />
+                        </p>
+
+
+
+                        <p class="Shrink"> The memory you would like to share: </p>
+                        <textarea id="comments" name="relInfo" required class="opt1 br-5"></textarea></p>
+
+                        <p id="wrap" class="Shrink"><input type="submit" class="button" name="Info"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

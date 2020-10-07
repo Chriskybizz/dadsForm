@@ -1,0 +1,169 @@
+:root {
+    border-radius: 5px;
+}
+
+#body {
+    background-image: url(images/caught-on-phone.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+#scroll {
+    display: grid;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    gap: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+
+#mainPanel {
+    justify-self: center;
+    width: 40%;
+    background-color: hsla(270, 100%, 0%, 0.27);
+    color: white;
+    padding: 5px;
+
+}
+
+#form {
+    display: grid;
+    justify-items: center;
+}
+
+input[type='text'] {
+    height: 30px;
+    border-color: transparent;
+}
+
+.opt1 {
+    display: flex;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#comments {
+    width: 98%;
+    height: 200px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#title {
+    justify-self: center;
+    line-height: 50px;
+    height: 20%;
+    width: 40%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: #3399FF;
+    border-color: transparent;
+}
+
+::-webkit-scrollbar {
+    background-color: lightblue;
+    width: 5px;
+}
+
+::-webkit-scrollbar-button {
+    color: navy;
+}
+
+::-webkit-scrollbar:hover {
+    background-color: lightblue;
+}
+
+#wrap {
+    justify-self: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+    width: 95%;
+    height: 70px;
+    justify-self: center;
+}
+
+ @media only screen and (max-width: 1600px) {
+    #form {
+
+        justify-self: center;
+    }
+    .Shrink {
+        max-width: 80%;
+        padding: 5px;
+        justify-self: center;
+    }
+
+    .opt1 {
+        max-width: 80%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #form {
+   
+        justify-self: center;
+    }
+    .Shrink {
+        max-width: 70%;
+        padding: 5px;
+        justify-self: center;
+    }
+
+    .opt1 {
+        max-width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    #form {
+
+        justify-self: center;
+    }
+    .Shrink {
+        max-width: 30%;
+        padding: 5px;
+        justify-self: center;
+    }
+
+    .opt1 {
+        max-width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    #form {
+
+        justify-self: center;
+    }
+    .Shrink {
+        max-width: 20%;
+        padding: 5px;
+        justify-self: center;
+    }
+
+    .opt1 {
+        max-width: 20%;
+    }
+
+}
+
+
+
