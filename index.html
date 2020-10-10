@@ -19,12 +19,13 @@
 
                 <div id="form">
                     <form action="#" name="userInfo">
-                        <p>Name: </p>
-                        <p> <input type="text" required name="Name" placeholder="Enter your name here." class="opt1" id="name" />
+                        <label>Name: </label>
+                        <p> <input type="text" required name="Name" placeholder="Enter your name here." class="opt1"
+                                id="name" />
                         </p>
 
 
-                        <p class="Shrink">James is your : </p>
+                        <label class="Shrink">James is your : </label>
                         <select class="opt1 " name="Relation" id="rel">
                             <option value="Sibling">Brother</option>
                             <option value="Child">Dad</option>
@@ -36,25 +37,28 @@
                         </select>
 
 
-                        <p class="Shrink">What year did this happen (Roughly) </p>
+                        <label class="Shrink">What year did this happen (Roughly) </label>
                         <input type="number" min="1900" max="2099" step="1" value="2016" id="date" />
                         </p>
 
-                        <p class="Shrink">Title/Head of your message</p>
-                        <input type="text" required name="persEmail" placeholder="Eg. Happy Birthday James"
-                            class="opt1" id="haBday"/>
+                        <label class="Shrink">Title/Head of your message</label>
+                        <input type="text" required name="persEmail" placeholder="Eg. Happy Birthday James" class="opt1"
+                            id="haBday" />
                         </p>
 
 
 
-                        <p class="Shrink"> The memory you would like to share: </p>
+                        <label class="Shrink"> The memory you would like to share: </label>
                         <textarea id="comments" name="relInfo" required class="opt1" id="mem"></textarea></p>
 
-                        <p class="Shrink">If you have an image you would like adding to your memory, upload it here:</p>
+                        <label class="Shrink">If you have an image you would like adding to your memory, upload it
+                            here:</label>
 
-                        <input type="file" class="Shrink" id="wrap" name="img" accept="image/*" value="Upload an image" id="memImg">
+                        <input type="file" class="Shrink" id="wrap" name="img" accept="image/*" value="Upload an image"
+                            id="memImg">
 
-                        <p class="Shrink"><button type="button" class="button" name="Info" id="submit" onclick="formSave()">submit</button></p>
+                        <p class="Shrink"><button type="button" class="button" name="Info" id="submit"
+                                onclick="formSave()">submit</button></p>
                     </form>
                 </div>
             </div>
