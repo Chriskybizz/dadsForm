@@ -15,17 +15,17 @@
                 <h2> Happy Memory Form</h2><br>
                 <em>Thank you for sharing this memory</em>
             </div>
-            <div id="mainPanel" class="br-5">
+            <div id="mainPanel">
 
                 <div id="form">
                     <form action="#" name="userInfo">
                         <p>Name: </p>
-                        <p> <input type="text" required name="Name" placeholder="Enter your name here." class="opt1 " />
+                        <p> <input type="text" required name="Name" placeholder="Enter your name here." class="opt1" id="name" />
                         </p>
 
 
                         <p class="Shrink">James is your : </p>
-                        <select class="opt1 " name="Relation">
+                        <select class="opt1 " name="Relation" id="rel">
                             <option value="Sibling">Brother</option>
                             <option value="Child">Dad</option>
                             <option value="Uncle">Uncle</option>
@@ -37,24 +37,24 @@
 
 
                         <p class="Shrink">What year did this happen (Roughly) </p>
-                        <input type="number" min="1900" max="2099" step="1" value="2016" />
+                        <input type="number" min="1900" max="2099" step="1" value="2016" id="date" />
                         </p>
 
                         <p class="Shrink">Title/Head of your message</p>
                         <input type="text" required name="persEmail" placeholder="Eg. Happy Birthday James"
-                            class="opt1" />
+                            class="opt1" id="haBday"/>
                         </p>
 
 
 
                         <p class="Shrink"> The memory you would like to share: </p>
-                        <textarea id="comments" name="relInfo" required class="opt1"></textarea></p>
+                        <textarea id="comments" name="relInfo" required class="opt1" id="mem"></textarea></p>
 
                         <p class="Shrink">If you have an image you would like adding to your memory, upload it here:</p>
 
-                        <input type="file" class="Shrink" id="wrap" name="img" accept="image/*" value="Upload an image">
+                        <input type="file" class="Shrink" id="wrap" name="img" accept="image/*" value="Upload an image" id="memImg">
 
-                        <p id="wrap" class="Shrink"><input type="submit" class="button" name="Info"></p>
+                        <p class="Shrink"><button type="button" class="button" name="Info" id="submit" onclick="formSave()">submit</button></p>
                     </form>
                 </div>
             </div>

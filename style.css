@@ -20,7 +20,7 @@
 
 #mainPanel {
     justify-self: center;
-    width: 40%;
+    width: 90%;
     background-color: hsla(270, 100%, 0%, 0.27);
     color: white;
     padding: 5px;
@@ -76,9 +76,6 @@ input[type='text'] {
     background-color: lightblue;
 }
 
-#wrap {
-    justify-self: center;
-}
 
 .button {
     background-color: #4CAF50;
